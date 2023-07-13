@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Batang;
+  }
+  body{
+    width: 100%;
+    margin-top: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("images/bgimage.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .wrapper{
+    width: 380px;
+    padding: 40px 30px 50px 30px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(7, 7, 7, 0.932);
+    opacity: 0.8;
+  }
+
+  .wrapper header{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .wrapper form{
+    margin: 40px 0;
+  }
+  form .field{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  form .field .input-area{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+
+  form .field .input-area #teach{
+    background-image: url(images/carnatic-vocals1.svg);
+    background-size: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+  }
+
+  form .field .input-area #stud{
+    background-image: url(images/studentimage.png);
+    background-size: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+
+  }
+  
+
+  form input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 5px;
+    font-size: 18px;
+    background: none;
+    caret-color: #5372F0;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+  }
+  form .field input:focus,
+  form .field.valid input{
+    border-color: #5372f0;
+  }
+  
+  
+  
+  
+  
+  .wrapper a{
+  color: #f87250;
+    text-decoration: none;
+  }
+  
